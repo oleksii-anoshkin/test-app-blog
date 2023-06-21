@@ -1,0 +1,13 @@
+header.navbar.navbar-expand-lg.bg-body-tertiary {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+
+  z-index: 100;
+}
+
+nav.collapse.navbar-collapse {
+  justify-content: flex-end;
+}

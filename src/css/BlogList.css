@@ -1,0 +1,18 @@
+.blogs__title {
+  margin: 0.25rem 0 1rem;
+  text-align: center;
+}
+
+div.card-body {
+  padding-bottom: 48px;
+}
+
+.btn__box {
+  position: absolute;
+  left: 12px;
+  bottom: 16px;
+}
+
+div.card-body .btn.btn-secondary {
+  margin: 0 4px;
+}

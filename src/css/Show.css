@@ -1,0 +1,32 @@
+.show div.card-body {
+  padding-bottom: 60px;
+}
+
+.show h5.card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.show div.btn__box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.show p.card-text {
+  columns: 3;
+  column-gap: 32px;
+}
+
+@media (max-width: 1024px) {
+  .show p.card-text {
+    columns: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .show p.card-text {
+    columns: 1;
+  }
+}
